@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Verification</title>
+        <link rel="stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class = "container_box">
+            <h1>Register</h1>
+            <p>Signup now and get full access to our app</p>
+
+            <form>
+                <div class = "row-container">
+                    <input class = "name" type = "text" placeholder = "firstname">
+                    <input class = "name" type = "text" placeholder = "lastname">
+                </div>
+
+                <input class = "email" type = "email" id = "email" placeholder = "Email">
+
+                <div class = "pasw-field">
+                    <input type = "password" id = "password" placeholder = "Password">
+                    <i class="fa-solid fa-eye-slash"></i>
+                </div>
+            
+                <div class = "pasw-field">
+                    <input type = "password" id = "password2" placeholder = "Confirm password">
+                    <i class="fa-solid fa-eye-slash"></i>
+                </div>
+
+                <button class = "btn btn1" id = "btnClear">Clear All Data</button>
+                <button class = "btn btn2" id = "btnSubmit">Submit</button>
+            </form>
+
+            <div class = "bot-text">
+                <p>Already have an account ? <span> Signin</span></p>
+            </div>
+        </div>
+        <script src = "main.js"></script>
+    </body>
+</html>
